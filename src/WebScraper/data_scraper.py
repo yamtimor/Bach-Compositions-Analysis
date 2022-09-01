@@ -1,14 +1,18 @@
 import pandas as pd
 import bs4 as bs
 import requests
+import pprint
 
 
 class DataPuller:
 
-    def __init__(self, base_url: str, uri_):
+    def __init__(self, base_url: str, uri):
         self.base_url = base_url
+        self.uri = uri
 
-        self.api_uri =
+    def get_data(self):
+        res = requests.get(f'{self.base_url}{self.uri}')
+        return res.content
 
-    def get_html(self):
-        res = requests.get()
+    def __call__(self):
+        pass
