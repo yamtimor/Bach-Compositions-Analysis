@@ -13,6 +13,3 @@ class DataPuller:
     def get_data(self):
         res = requests.get(f'{self.base_url}{self.uri}')
         return res.content
-
-    def __call__(self):
-        pass
