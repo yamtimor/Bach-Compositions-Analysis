@@ -1,7 +1,7 @@
 import pandas as pd
 import bs4 as bs
 import requests
-import pprint
+from pprint import pprint
 
 
 class DataPuller:
