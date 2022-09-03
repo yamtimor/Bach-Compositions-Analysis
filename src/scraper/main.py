@@ -1,11 +1,12 @@
 from data_scraper import DataPuller
 from data_scraper_config import ScraperConfig
+from pprint import pprint
 
 def main():
+    pass
 
     data = ScraperConfig()
-
-    DataPuller.get_data(data())
+    pprint(DataPuller.get_data(data()))
 
 
 

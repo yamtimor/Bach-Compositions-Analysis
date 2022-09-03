@@ -8,9 +8,7 @@ class ScraperConfig(BaseSettings):
 
 
     def __call__(self):
-        print(self.base_url + self.uri)
         return self.base_url + self.uri
 
 data = ScraperConfig()
 
-pprint(data)
