@@ -6,8 +6,8 @@ def main():
     pass
 
     data = ScraperConfig()
-    pprint(DataPuller.get_data(data()))
-
+    pprint(data.full_url)
+    DataPuller.get_data(data.full_url)
 
 
 if __name__ == "__main__":
