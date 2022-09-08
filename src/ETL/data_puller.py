@@ -2,7 +2,7 @@ import pandas as pd
 import bs4 as bs
 import requests
 from pprint import pprint
-from data_scraper_config import ScraperConfig
+from api_config import API_Config
 
 
 
