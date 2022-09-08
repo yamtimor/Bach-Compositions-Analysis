@@ -1,4 +1,4 @@
 # Bach-Compositions-Analysis
-Scraping Bach list of works and analyzing it.
+Analyzing Bach list works with data from IMSLP API.
 
 #UNDER MAINTENANCE
